@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom'
 import './Home.css';
 
 class Home extends Component {
@@ -19,7 +19,8 @@ class Home extends Component {
 			    </div>
 	      	</h1>
 	      	<p>Using ReactJS, AngualJS, HTML5, CSS3, Python, PHP &amp; Wordpress</p>
-	      	<a href="/contact" className="hartsol-btn-bordered hartsol-btn">Yes, I'm available for hire</a>
+	    <Link to='/contact'><span className="hartsol-btn-bordered hartsol-btn">Yes, I'm available for hire</span></Link>
+	      	
       	</div>
 
       </section>
