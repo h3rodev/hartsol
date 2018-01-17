@@ -1,0 +1,27 @@
+{
+  "name": "hartsol",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
+    "animated": "^0.2.1",
+    "jquery": "^3.2.1",
+    "particlesjs": "^2.1.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-fontawesome": "^1.6.1",
+    "react-particles-js": "^2.1.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-transition-group": "^2.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
