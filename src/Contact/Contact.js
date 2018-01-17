@@ -19,7 +19,7 @@ class Contact extends Component {
       <section id="hartsol-contact" className="hartsol-view">
       	<div className="hartsol-section-container">
 	      	<h1 className="hartsol-section-title">
-	      		Contact me <br/> <a href="mailto:ronald.tolentino27@gmail.com?subject=Inquiry From Website&body=Found your website and would like your services. Please call me at +971 -- --- ----"><i className="fa fa-envelope" aria-hidden="true"></i></a><span></span> <br /> <span>+971 50 855 7027</span>
+	      		Contact me <br/> <a href="mailto:ronald.tolentino27@gmail.com?subject=Inquiry From Website&body=Found your website and would like your services. Please call me at +971 -- --- ----"><i className="fa fa-envelope" aria-hidden="true"></i></a><span></span> <span>+971 50 855 7027</span>
 	      	</h1>
 	      	<article className="content-half">
 	      		<p>If you have any questions, please don’t hesitate to contact me</p>
