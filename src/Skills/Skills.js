@@ -17,6 +17,10 @@ class Skills extends Component {
 					<span>PolymerJS</span>
 					<span>ReactJS</span>
 					<span>AngualrJS</span>
+					<span>SEO</span>
+					<span>Link Building</span>
+					<span>Google Adword</span>
+					<span>Cryptocurrency</span>
 			    </div>
 	      	</h1>
 	      	<article className="content-half">
@@ -50,12 +54,15 @@ class Skills extends Component {
 						<li><a href="#">Restful</a></li>
 						<li><a href="#">JSON</a></li>
 						<li><a href="#">Wordpress</a></li>
-						<li><a href="#">Drupal</a></li>
-						<li><a href="#">Joomla</a></li>
-						<li><a href="#">ASP</a></li>
+						<li><a href="#">Keyword Research</a></li>
+						<li><a href="#">SEO</a></li>
+
+						<li><a href="#">Link Building</a></li>
+						<li><a href="#">Google Analytics</a></li>
+
 						<li><a href="#">Photoshop</a></li>
 						<li><a href="#">Illustrator</a></li>
-						<li><a href="#">Indesign</a></li>
+						
 						<li><a href="#">Responsive</a></li>
 					</ul>
 				</div>
